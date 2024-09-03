@@ -1,0 +1,168 @@
+.bandeira{
+    width:600px;
+    height:420px;
+    border: 5px solid black;
+    display:block;
+    margin:5px;
+}
+
+.bandeiraq{
+    width:450px;
+    height:450px;
+    border:5px solid black;
+    display:block;
+    margin:5px;
+}
+
+.bola{
+    width:200px;
+    height:200px;
+    display:block;
+    border-radius: 100%;
+    margin-left:200px;
+    margin-top:120px;
+    
+}
+
+.esq{
+    float:left;
+}
+
+.col3{
+    width:200px;
+    height:420px;
+    display:block;
+    float:left;
+}
+
+.lin3{
+    width:600px;
+    height:140px;
+    display:block;
+    float:bottom;
+}
+
+.lin2{
+    width:600px;
+    height:210px;
+    display:block;
+    float:bottom;
+}
+
+.lisHor{
+    height:420px;
+    width:100px;
+    display:block;
+    float:bottom;
+    position:relative;
+    left:120px;
+}
+
+.lisVer{
+    height:100px;
+    width:600px;
+    display:block;
+    position:relative;
+    bottom:250px;
+}
+
+.lisHor2{
+    height:350px;
+    width:120px;
+    display:block;
+    float:bottom;
+    position:relative;
+    left:165px;
+    top:50px;
+}
+
+.lisVer2 {
+    height:120px;
+    width:350px;
+    display:block;
+    position:relative;
+    bottom:190px;
+    left:50px;
+}
+
+
+
+.azulforte{
+    background-color:darkblue;
+}
+
+.azulclaro{
+    background-color:lightblue;
+}
+
+.branco{
+    background-color:white;
+}
+
+.vermeforte{
+    background-color:darkred;
+}
+
+.amarelo{
+    background-color:yellow;    
+}
+
+.preto{
+    background-color:black;
+}
+
+.verde{
+    background-color:green;
+}
+.laranja{
+    background-color:orange;
+}
+
+.paralelo{
+    width: 280px;
+	height: 280px;
+	transform: skew(10deg);
+    rotate: 140deg;
+    position:relative;
+    left:155px;
+    top:75px;
+}
+
+.bolab{
+    width:200px;
+    height:200px;
+    display:block;
+    border-radius: 100%;
+    position:relative;
+    margin-left:195px;
+    margin-top:-165px;
+}
+
+#star {
+    margin: 100px;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #000;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    }
+    #star:before {
+    border-bottom: 80px solid #000;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: ‘’;
+    transform: rotate(-35deg);
+    }
+   
+    .star{
+        
+    }

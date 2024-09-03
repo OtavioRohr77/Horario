@@ -1,0 +1,30 @@
+table, td{
+    border:2px solid black;
+}
+
+table, th{
+    border:2px solid black;
+}
+
+th{
+    font-size:25px;
+}
+
+td{
+    font-size:35px;
+    text-align:center;
+}
+
+h2{
+    position:relative;
+    font-size:40px;
+}
+
+.cinza{
+    background-color:grey;
+    text-align:center;
+}
+
+.centro{
+    text-align:center;
+}
